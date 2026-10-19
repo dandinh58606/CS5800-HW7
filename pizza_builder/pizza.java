@@ -13,18 +13,22 @@ public class pizza {
         HAM, PESTO, SPICY_PORK, HAM_AND_PINEAPPLE
     }
 
-    private String chain_name;
+    public enum Chain {
+        PIZZA_HUT, DOMINOS, LITTLE_CAESARS
+    }
+
+    private Chain chain_name;
     private Size size;
     private List<Topping> toppings; 
 
     private pizza(){};
-    public pizza(String chain_name, Size size, List<Topping> toppings){
-        this.chain_name = chain_name;
+    public pizza(Chain name, Size size, List<Topping> toppings){
+        this.chain_name = name;
         this.size = size;
         this.toppings = toppings;
     }
 
-    public String getChainName()
+    public Chain getChainName()
     {
         return chain_name;
     }
