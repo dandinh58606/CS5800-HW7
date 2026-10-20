@@ -35,10 +35,10 @@ public class Customer {
     }
 
     public void printCustomerDetails() {
-    System.out.println("Customer: " + full_name + " | Diet: " + restrictions);
-    System.out.println("  - Carb: " + (carb != null ? carb : "None"));
-    System.out.println("  - Protein: " + (protein != null ? protein : "None"));
-    System.out.println("  - Fat: " + (fats != null ? fats : "None"));
-    System.out.println();
-}
+        System.out.println("Customer: " + full_name + " | Diet: " + restrictions);
+        System.out.println("  - Carb: " + (carb != null ? carb : "None"));
+        System.out.println("  - Protein: " + (protein != null ? protein : "None"));
+        System.out.println("  - Fat: " + (fats != null ? fats : "None"));
+        System.out.println();
+    }
 }

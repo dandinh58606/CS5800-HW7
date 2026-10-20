@@ -51,10 +51,10 @@ public class FatsFactory {
         String selected = validFats.get(random.nextInt(validFats.size()));
 
         switch (selected){
-            case "Cheese": return new Avocado();
-            case "Bread": return new SourCream();
-            case "Lentils": return new Tuna();
-            case "Pistachio": return new Peanuts();
+            case "Avocado": return new Avocado();
+            case "Sour Cream": return new SourCream();
+            case "Tuna": return new Tuna();
+            case "Peanuts": return new Peanuts();
             default: return null;
         }
     }

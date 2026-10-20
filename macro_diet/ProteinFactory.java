@@ -51,10 +51,10 @@ public class ProteinFactory {
         String selected = validProtein.get(random.nextInt(validProtein.size()));
 
         switch (selected){
-            case "Cheese": return new Fish();
-            case "Bread": return new Chicken();
-            case "Lentils": return new Beef();
-            case "Pistachio": return new Tofu();
+            case "Fish": return new Fish();
+            case "Chicken": return new Chicken();
+            case "Beef": return new Beef();
+            case "Tofu": return new Tofu();
             default: return null;
         }
     }
