@@ -1,7 +1,5 @@
 package macro_diet;
 
-import java.util.ArrayList;
-
 public class Customer {
     public enum Dietary_Restrictions {
         NONE, PALEO, VEGAN, NO_NUTS
